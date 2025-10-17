@@ -1,6 +1,6 @@
 name: GPIO Emergency to MQTT
 slug: acb61124_gpio_emergency
-version: "0.1.6"           # tăng version để buộc HA rebuild
+version: "0.1.7"           # tăng version để buộc HA rebuild
 description: Read Raspberry Pi GPIO and publish to MQTT for emergency button.
 url: https://github.com/hiendz0511-dev/Teemo/tree/main/gpio_emergency
 
