@@ -1,5 +1,0 @@
-#!/usr/bin/with-contenv bashio
-set -e
-export GPIO_PIN=$(bashio::config 'gpio_pin')
-export MQTT_HOST=$(bashio::config 'mqtt_host')
-python3 /emergency_button.py
