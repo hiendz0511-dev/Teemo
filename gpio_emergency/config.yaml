@@ -1,12 +1,15 @@
 name: GPIO Emergency to MQTT
-slug: gpio_emergency
 version: "0.1.4"
-description: Read Raspberry Pi GPIO and publish to MQTT for emergency button
-startup: services
-arch: [aarch64, armv7, armhf]
+slug: acb61124_gpio_emergency
+arch:
+  - aarch64
+  - armv7
+  - armhf
 host_network: true
-privileged: [SYS_RAWIO]
-devices: ["/dev/gpiomem"]
+privileged:
+  - SYS_RAWIO
+devices:
+  - /dev/gpiomem
 options:
   gpio_pin: 17
   mqtt_host: core-mosquitto
