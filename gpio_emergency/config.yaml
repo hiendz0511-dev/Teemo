@@ -1,6 +1,6 @@
 name: GPIO Emergency to MQTT
 slug: gpio_emergency
-version: "0.1.0"
+version: "0.1.1"
 description: Read Raspberry Pi GPIO and publish to MQTT for emergency button
 startup: services
 arch: [aarch64, armv7, armhf]
